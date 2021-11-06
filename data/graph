@@ -1,0 +1,26 @@
+digraph {
+	graph [rankdir=LR]
+	node [shape=circle]
+	edge [arrowhead=open]
+	G [label=G]
+	F [label=F]
+	E [label=E]
+	C [label=C]
+	I [label=I]
+	B [label=B]
+	A [label=A]
+	D [label=D]
+	H [label=H]
+	D -> C
+	E -> B
+	F -> I
+	I -> G
+	B -> D
+	G -> H
+	A -> E
+	C -> F
+	H -> C
+	H -> A
+	H -> G
+	B -> E
+}
